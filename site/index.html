@@ -1,93 +1,26 @@
-* {
-  box-sizing: border-box;
-}
-h1 {
-	text-align: center;
-     margin-bottom: 15px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Our Menu</h1>
 
-.row {
-	
-    width: 100%;
-}
-.m{
-  
-  padding: 1%;
-  font-family: Helvetica;
- }
-  .h
-  {
-  	position: relative;
-  	background-color: gray;
-  	border:1px solid black;
-  	padding: 15px;
-  }
-p
-{	position: relative;
-	top: 20px;
+<div class="row">
+  <div class=" m col-lg-4 col-md-6 col-sm-12 "> 
+  <div class="h"><div class="c" id="chicken">
+  Chicken</div><p>lorem ipsum dolor sit amet, consectetur adipisicing
+  elit,sed do eiusmod tempor incididunt ut labore et dolore mogna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></div>
+  <div class=" m col-lg-4 col-md-6 col-sm-12 " >
+  <div class="h"><div class="c" id="Beef">Beef</div><p>lorem ipsum dolor sit amet, consectetur adipisicing
+  elit,sed do eiusmod tempor incididunt ut labore et dolore mogna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></div>
+  <div class="m col-lg-4 col-md-12 col-sm-12 ">
+  <div class="h"><div class="c" id="sushi">Sushi</div><p>lorem ipsum dolor sit amet, consectetur adipisicing
+  elit,sed do eiusmod tempor incididunt ut labore et dolore mogna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></div>
 
-}
-.c{ 
-	color: white;
-	width: 150px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	
-	text-align: center;
-	border: 1px solid black;
-	float: right;
-	padding: 1px;
-}
-#chicken
-{
-	background-color: pink;
-}
-#Beef
-{
-	background-color: yellow;
-}
-#sushi
-{
-	background-color: red;
-}
-/* Simple Responsive Framework. */
 
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-4 {
-    float: left;
-    border: 10px solid white;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  
-  
-}
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6, .col-md-12 {
-    float: left;
-    border: 10px solid white;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  
-  .col-md-12 {
-    width: 100%;
-  }
-  
-}
-@media (max-width: 767px) {
-  .col-sm-12 {
-    float: left;
-    border: 10px solid white;
-  }
-  .col-sm-12 {
-    width: 100%;
-  }
-  
- 
-}
+</body>
+</html>
